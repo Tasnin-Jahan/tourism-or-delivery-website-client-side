@@ -1,0 +1,25 @@
+.services-container{
+    height: 550px;
+    width: auto;
+    margin-bottom: 70px;
+    background-color:lightcyan;
+    border-radius: 6%;
+}
+.services-container:hover{
+    background-color:lightskyblue;
+    position: relative;
+    top: 10px;
+    /* transform: scale(1.05);
+    margin-bottom: 40px;
+    margin-top: 20px; */
+    /* transform: rotateZ(180deg); */
+}
+.service-img{
+    height: 300px;
+    width: auto;
+    border-radius: 6%;
+}
+.service-button{
+    border-radius: 10px;
+    background-color: bisque;
+}

@@ -1,0 +1,28 @@
+.detail-container{
+    display: flex;
+    border-right: 1px solid grey;
+}
+.detail-info{
+    background-color:azure
+}
+.detail-info text{
+    text-align: center;
+}
+.form-container{
+    background-color: lavenderblush;
+}
+.form-container input{
+    display: block;
+    width:500px;
+    margin-top:20px;
+    background-color: lightgoldenrodyellow;
+}
+.form-container button{
+    display: block;
+    width:500px;
+    margin-top:20px;
+    background-color: lightgoldenrodyellow;
+}
+.form-container input:hover{
+    background-color: khaki;
+}
