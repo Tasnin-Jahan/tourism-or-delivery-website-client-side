@@ -15,7 +15,7 @@ const ServiceDetail = () => {
     const [serviceDetail, setServiceDetail] = useState({});
 
     useEffect(() => {
-        fetch('https://sheltered-brook-96434.herokuapp.com/services')
+        fetch('http://localhost:5000/services')
             .then((res) => res.json())
             .then((data) => {
                 let serv = data.find(p => p._id == id);

@@ -12,7 +12,7 @@ const Services = () => {
             let filter_data = services.filter(obj => obj.name.includes(searchText));
             setServices(filter_data)
         } else {
-            fetch('https://sheltered-brook-96434.herokuapp.com/services')
+            fetch('http://localhost:5000/services')
                 .then(res => res.json())
                 .then(data => setServices(data));
         }
